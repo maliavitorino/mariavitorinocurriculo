@@ -1,0 +1,66 @@
+
+        #header {
+            background-color: #738a8d;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            font-family: 'IBM Plex Sans', sans-serif;
+            }
+
+        #end {
+            background-color: #738a8d;
+            color: #738a8d;
+        }
+
+        #nameAndTitle {
+            background-color: #FFFFFF;
+            width: 450px;
+            margin: 0 auto;
+            text-align: center;
+            }
+
+        #nameAndTitle h1, h2 {
+            margin: 0;
+            }
+
+        h1, h2, h4 {
+            text-transform: uppercase;
+            }
+
+        #links {
+            text-align: center;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        #contact, #links  {
+            list-style-type: none;
+        }
+        #contact i, #links i {
+            width: 30px;
+            color: #738a8d;
+        }
+
+        #container {
+            display: grid; 
+            grid-template-columns: 50% auto;
+            grid-column-gap: 20px;
+        }
+
+        #sidebar, #content {
+            display: flex;
+            flex-direction: column;
+            row-gap: 15px;
+        }
+
+        .card h3 {
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-weight: 500;
+        }
+
+        .card {
+            font-family: 'IBM Plex Sans', sans-serif;
+            border: 1px solid #eaeaeaea;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: justify;
+        }
